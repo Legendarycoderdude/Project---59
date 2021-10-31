@@ -1,0 +1,45 @@
+img {
+    height: 218px;
+    border-radius: 20%;
+}
+
+body {
+    text-align: center;
+    background: radial-gradient(#505221 50%, #425dd6 100%);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.line-1 {
+    height: 3px;
+    background-color: cyan;
+    width: 80px;
+    margin: 12px auto;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    cursor: pointer;
+    z-index: 40;
+}
+
+#Welcome {
+    font-family: 'Zen Antique', serif;
+}
+
+li a:hover {
+    background-color: crimson;
+}
+
+.links {
+    float: left;
+    padding: 5px;
+}
+
+html{
+    scroll-behavior:smooth; 
+}
